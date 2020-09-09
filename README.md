@@ -11,6 +11,8 @@ One of the shortcomings of `python-gitlab` package is that when fetching resourc
 
 Another problem that this package is trying to solve is dropped connections after 100 pages of paginated content. This may or may not be a problem when using different versions of `python-gitlab` package.
 
+`aio-gitlab` allows users to fetch resources faster by making requests to Gitlab API asynchronous. This can significantly improve performance when working with large amounts of Gitlab resources.
+
 ## Installation
 
 ```sh
