@@ -53,4 +53,4 @@ project = gl.projects.get(os.getenv("PROJECT_ID"))
 # jobs = project.jobs.list(all=True)
 project_jobs = gl.aio.get_project_jobs(project)
 ```
-Other attributes for resources that are currently supported by [Gitlab API](https://docs.gitlab.om/ee/api/README.html) are possible to pass via `**kwargs` to the function calls.
+Other attributes for resources that are currently supported by [Gitlab API](https://docs.gitlab.com/ee/api/README.html) are possible to pass via `**kwargs` to the function calls.
