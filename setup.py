@@ -8,7 +8,7 @@ setup(
     author_email='dominik.bucko@pan-net.eu',
     url='',
     packages=['aio-gitlab'],
-    install_requires=['python-gitlab==1.6.0', 'aiohttp==3.6.2'],
+    install_requires=['python-gitlab==1.6.0', 'aiohttp==3.7.4'],
     keywords=['gitlab', 'asyncio', 'gitlab-ci', 'devops'],
     classifiers=[
         'Programming Language :: Python :: 3',
